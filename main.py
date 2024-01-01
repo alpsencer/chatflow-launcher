@@ -4,14 +4,11 @@ sys.path.append(parent_folder_path)
 sys.path.append(os.path.join(parent_folder_path, 'lib'))
 sys.path.append(os.path.join(parent_folder_path, 'plugin'))
 
-from flox import Flox
+from flowlauncher import FlowLauncher
 import webbrowser
 
-# -*- coding: utf-8 -*-
-import urllib.parse
 
-
-class HelloWorld(Flox):
+class HelloWorld(FlowLauncher):
 
     def query(self, prompt):
         if(self.settings.get('default_model')):
