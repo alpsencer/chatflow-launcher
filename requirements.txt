@@ -1,1 +1,2 @@
-flowlauncher
+flowlauncher==0.2.0
+Flox-lib==0.19.3
