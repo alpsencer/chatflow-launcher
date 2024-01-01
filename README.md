@@ -15,6 +15,7 @@ This is a Python-based plugin for Flow Launcher that allows you to open ChatGPT 
 ## Usage
 
 Use the action keyword `ch` followed by your query to use this plugin.
+To use GPT 4, add a `4` before your prompt.
 
 ## Contributing
 
