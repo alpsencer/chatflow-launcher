@@ -8,8 +8,8 @@ body:
     attributes:
       name: default_model
       label: "Default Model for OpenAI Chat:"
-      defaultValue: "text-davinci-002-render-sha"  # GPT 3.5
-      description: "Set the default model to use in OpenAI Chat (e.g., gpt-3.5-turbo, gpt-4, etc.)"
+      defaultValue: "gpt-3.5" 
+      description: "Set the default model to use in OpenAI Chat (GPT 3.5 or GPT 4)"
       options:
-      - "text-davinci-002-render-sha"
-      - "gpt-4"
+      - gpt-3.5
+      - gpt-4
