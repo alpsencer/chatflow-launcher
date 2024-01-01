@@ -6,15 +6,12 @@ sys.path.append(os.path.join(parent_folder_path, 'plugin'))
 
 from flowlauncher import FlowLauncher
 import webbrowser
-
+import urllib.parse
 
 class HelloWorld(FlowLauncher):
 
     def query(self, prompt):
-        if(self.settings.get('default_model')):
-            model = self.settings.get('default_model')
-        else:
-            model = 'text-davinci-002-render-sha'
+        model = "gpt-4"
         encoded_prompt = urllib.parse.quote(prompt)  # URL encode the prompt
         openai_chat_url = f"https://chat.openai.com/?model={model}&prompt={encoded_prompt}"  # Construct the URL with both parameters
 
