@@ -36,7 +36,7 @@ jobs:
         if: success()
         uses: softprops/action-gh-release@v0.1.15
         with:
-          files: 'Flow.Launcher.Plugin.HelloWorldPython.zip'
+          files: 'Flow.Launcher.Plugin.ChatFlow.zip'
           tag_name: "v${{steps.version.outputs.prop}}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
