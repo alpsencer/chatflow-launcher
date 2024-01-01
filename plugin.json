@@ -1,0 +1,12 @@
+{
+    "ID": "chatflowlauncherplugin",
+    "ActionKeyword": "ch",
+    "Name": "ChatGPT Flow Launcher",
+    "Description": "Open ChatGPT with a populated prompt from query",
+    "Author": "alpsencer",
+    "Version": "1.0.0",
+    "Language": "python",
+    "Website": "https://github.com/alpsencer/chatflow",
+    "IcoPath": "Images\\app.png",
+    "ExecuteFileName": "main.py"
+}
