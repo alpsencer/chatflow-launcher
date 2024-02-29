@@ -4,6 +4,7 @@
 ![GitHub license](https://img.shields.io/github/license/alpsencer/chatflow-launcher)
 
 # ChatGPT Flow Launcher
+**Note:** This is one of my test projects to learn how Flow Launcher works (for faster interaction with the assistant on Windows, there will be a Linux port for a different launcher as I am also mainly using Linux), mainly for the [OpenJARVIS](https://github.com/alpsencer/openjarvis) AI assistant project.
 
 This is a Python-based plugin for Flow Launcher that allows you to open ChatGPT with a populated prompt from your query.
 
